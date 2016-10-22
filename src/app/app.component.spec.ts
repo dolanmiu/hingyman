@@ -3,16 +3,21 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
-import { AboutComponent } from './about/about.component';
+
+import { FooterModule } from './footer';
+import { AboutModule } from './about';
 
 describe('App: Hingyman', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       declarations: [
         AppComponent,
-        NavComponent,
-        AboutComponent
+        NavComponent
       ],
+      imports: [
+        AboutModule,
+        FooterModule
+      ]
     });
   });
 
