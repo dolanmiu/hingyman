@@ -8,6 +8,7 @@ import { FooterModule } from './footer';
 import { AboutModule } from './about';
 import { PortfolioModule } from './portfolio';
 import { CertificateModule } from './certificate';
+import { ServicesModule } from './services';
 
 describe('App: Hingyman', () => {
   beforeEach(() => {
@@ -20,7 +21,8 @@ describe('App: Hingyman', () => {
         AboutModule,
         FooterModule,
         PortfolioModule,
-        CertificateModule
+        CertificateModule,
+        ServicesModule
       ]
     });
   });

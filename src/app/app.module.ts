@@ -10,6 +10,7 @@ import { FooterModule } from './footer';
 import { AboutModule } from './about';
 import { PortfolioModule } from './portfolio';
 import { CertificateModule } from './certificate';
+import { ServicesModule } from './services';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { CertificateModule } from './certificate';
     AppComponent,
     AboutModule,
     PortfolioModule,
-    CertificateModule
+    CertificateModule,
+    ServicesModule
   ]
 })
 export class AppModule { }
