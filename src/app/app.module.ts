@@ -9,6 +9,7 @@ import { NavComponent } from './nav/nav.component';
 import { FooterModule } from './footer';
 import { AboutModule } from './about';
 import { PortfolioModule } from './portfolio';
+import { CertificateModule } from './certificate';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { PortfolioModule } from './portfolio';
   bootstrap: [
     AppComponent,
     AboutModule,
-    PortfolioModule
+    PortfolioModule,
+    CertificateModule
   ]
 })
 export class AppModule { }

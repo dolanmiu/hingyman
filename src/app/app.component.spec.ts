@@ -6,6 +6,8 @@ import { NavComponent } from './nav/nav.component';
 
 import { FooterModule } from './footer';
 import { AboutModule } from './about';
+import { PortfolioModule } from './portfolio';
+import { CertificateModule } from './certificate';
 
 describe('App: Hingyman', () => {
   beforeEach(() => {
@@ -16,7 +18,9 @@ describe('App: Hingyman', () => {
       ],
       imports: [
         AboutModule,
-        FooterModule
+        FooterModule,
+        PortfolioModule,
+        CertificateModule
       ]
     });
   });
