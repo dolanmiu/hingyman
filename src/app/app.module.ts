@@ -11,6 +11,7 @@ import { AboutModule } from './about';
 import { PortfolioModule } from './portfolio';
 import { CertificateModule } from './certificate';
 import { ServicesModule } from './services';
+import { HeroModule } from './hero';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { ServicesModule } from './services';
     AboutModule,
     PortfolioModule,
     CertificateModule,
-    ServicesModule
+    ServicesModule,
+    HeroModule
   ]
 })
 export class AppModule { }
